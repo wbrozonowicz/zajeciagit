@@ -14,8 +14,15 @@ public class Main {
         System.out.println("something...");
     }
 
+
     @Override
     public String toString() {
         return "Object main: "+super.toString();
     }
+
+    public static void printArray(){
+        System.out.println("array....");
+    }
+
+
 }
