@@ -13,4 +13,9 @@ public class Main {
     public static void print(){
         System.out.println("something...");
     }
+
+    public static void printArray(){
+        System.out.println("array....");
+    }
+
 }
