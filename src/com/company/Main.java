@@ -13,4 +13,9 @@ public class Main {
     public static void print(){
         System.out.println("something...");
     }
+
+    @Override
+    public String toString() {
+        return "Object main: "+super.toString();
+    }
 }
