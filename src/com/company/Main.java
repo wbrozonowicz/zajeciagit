@@ -8,4 +8,9 @@ public class Main {
         System.out.println("another line");
         System.out.println("third line");
     }
+
+
+    public static void print(){
+        System.out.println("something...");
+    }
 }
