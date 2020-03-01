@@ -1,9 +1,20 @@
 package com.company;
 
+import java.util.ArrayList;
+
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+    // write your code here
+    ArrayList<String> arList = new ArrayList<>();
+    arList.add("Maciek");
+    arList.add("Tomek");
+        System.out.println(arList);
+for (int i = 0; i < 100; i++) {
+    System.out.println(i);
+}
+
         System.out.println("hii");
         System.out.println("another line");
         System.out.println("third line");
