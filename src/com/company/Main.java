@@ -15,6 +15,9 @@ for (int i = 0; i < 100; i++) {
     System.out.println(i);
 }
 
+Object1 nowyObj = new Object1("Wojtek");
+nowyObj.showName();
+
         System.out.println("hii");
         System.out.println("another line");
         System.out.println("third line");
